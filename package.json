@@ -1,0 +1,19 @@
+{
+  "name": "RPC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon cluster.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "moment": "^2.27.0",
+    "prompts": "^2.3.2"
+  }
+}
