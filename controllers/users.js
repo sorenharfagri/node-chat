@@ -28,7 +28,7 @@ const removeUser = ws => {
 
 /*
 * Проверка на повторяющийся никенйм в комнате
-* @ws: Websocket клиента
+* @username: string - никнейм клиента
 * @return bool - True если пользователь с никнеймом найден
 */
 const isUserNameTaken = username => {
