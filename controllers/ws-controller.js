@@ -93,7 +93,6 @@ module.exports = (ws, req) => {
                         })
                     }
                     break;
-                    // send message to all connected users expect sender
                 }
                 //Если метод не был найден - отправляем ошибку
                 default: {
