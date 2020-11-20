@@ -4,8 +4,6 @@ const {addUser, removeUser, isUserNameTaken, users} = require('./users.js');
 
 //Модуль отвечает за сокеты чата
 
-//TODO Проверить, нужны ли return-ы
-
 /*
 * Отправка JSON-RPC сообщения клиенту
 * Метод сериализует полученные данные, добавляем заголовок jsonrpc
